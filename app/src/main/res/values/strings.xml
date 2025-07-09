@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WindowsConection</string>
+    //transform
+    <string name="inputText">Ingrese el valor</string>
+    <string name="inputText1">Ingrese el valor</string>
+    <string name="inputText2">Ingrese el valor</string>
+    <string name="inputText3">Ingrese el valor</string>
+
+    <string name="btnTransform"></string>
+    <string name="btnSumar"></string>
+</resources>
