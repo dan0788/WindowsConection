@@ -1,7 +1,6 @@
-package com.example.windowsconection.Transform.classes
+package com.example.windowsconection.transform.classes
 
-import android.util.MutableDouble
-import com.example.windowsconection.Transform.interfaces.TransformCharactersInterface
+import com.example.windowsconection.transform.interfaces.TransformCharactersInterface
 
 class TransformCharactersClass :  TransformCharactersInterface{
     override fun transformToBinary(value: String): String {

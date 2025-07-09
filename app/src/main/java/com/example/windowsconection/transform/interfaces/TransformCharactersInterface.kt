@@ -1,4 +1,4 @@
-package com.example.windowsconection.Transform.interfaces
+package com.example.windowsconection.transform.interfaces
 
 interface TransformCharactersInterface {
     fun transformToHexadecimal(value: String) : Int

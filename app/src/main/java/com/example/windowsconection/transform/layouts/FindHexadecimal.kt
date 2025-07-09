@@ -1,19 +1,17 @@
-package com.example.windowsconection.Transform.layouts
+package com.example.windowsconection.transform.layouts
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
 import com.example.windowsconection.R
 import android.os.Bundle
 import android.view.View
 import com.example.windowsconection.MainActivity
 import android.content.Intent
-import com.example.windowsconection.Transform.classes.TransformCharactersClass
+import com.example.windowsconection.transform.classes.TransformCharactersClass
 import android.widget.Button
 import android.widget.TextView
 import android.widget.EditText
-import androidx.core.text.isDigitsOnly
-import com.example.windowsconection.Transform.classes.ValuesClass
+import com.example.windowsconection.transform.classes.ValuesClass
 
 class FindHexadecimal : AppCompatActivity() {
 

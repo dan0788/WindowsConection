@@ -1,18 +1,14 @@
-package com.example.windowsconection.Transform.layouts
+package com.example.windowsconection.transform.layouts
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import com.example.examen.R
+import com.example.windowsconection.R
 import android.os.Bundle
-import android.view.View
-//import com.example.examen.MainActivity
-import android.content.Intent
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.core.text.isDigitsOnly
-import com.example.windowsconection.Transform.classes.TransformCharactersClass
+import com.example.windowsconection.transform.classes.TransformCharactersClass
 
 class FindBinary : AppCompatActivity() {
 

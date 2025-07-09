@@ -1,6 +1,6 @@
-package com.example.windowsconection.Transform.classes
+package com.example.windowsconection.transform.classes
 
-import com.example.windowsconection.Transform.interfaces.ValuesInterface
+import com.example.windowsconection.transform.interfaces.ValuesInterface
 
 class ValuesClass : ValuesInterface{
     override fun hexadecimalValues(): Map<Char, Int> {
