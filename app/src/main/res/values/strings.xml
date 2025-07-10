@@ -8,4 +8,8 @@
 
     <string name="btnTransform"></string>
     <string name="btnSumar"></string>
+    //music player
+    <string name="btnMusicPlayer"></string>
+    <string name="returnButton"></string>
+
 </resources>

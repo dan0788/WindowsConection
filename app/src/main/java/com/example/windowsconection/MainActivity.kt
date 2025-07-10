@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.windowsconection.transform.layouts.FindBinary
 import com.example.windowsconection.transform.layouts.FindHexadecimal
+import com.example.windowsconection.musicPlayer.MainActivityMusicPlayer
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,11 @@ class MainActivity : AppCompatActivity() {
 
     fun goToBinary(view: View){
         val intent = Intent(this, FindBinary::class.java).apply {  }
+        startActivity(intent)
+    }
+
+    fun goToMusicPlayer(view: View){
+        val intent = Intent(this, MainActivityMusicPlayer::class.java).apply {  }
         startActivity(intent)
     }
 }
