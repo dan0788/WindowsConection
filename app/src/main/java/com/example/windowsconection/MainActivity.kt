@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.windowsconection.barGraph.MainActivityBarGraph
 import com.example.windowsconection.transform.layouts.FindBinary
 import com.example.windowsconection.transform.layouts.FindHexadecimal
 import com.example.windowsconection.musicPlayer.MainActivityMusicPlayer
@@ -34,6 +35,11 @@ class MainActivity : AppCompatActivity() {
 
     fun goToMusicPlayer(view: View){
         val intent = Intent(this, MainActivityMusicPlayer::class.java).apply {  }
+        startActivity(intent)
+    }
+
+    fun goToBarGraph(view: View){
+        val intent = Intent(this, MainActivityBarGraph::class.java).apply {  }
         startActivity(intent)
     }
 }

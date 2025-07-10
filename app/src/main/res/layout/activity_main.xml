@@ -61,4 +61,18 @@
         app:layout_constraintTop_toBottomOf="@+id/btnFindBinary"
         app:layout_constraintVertical_bias="0.094" />
 
+    <Button
+        android:id="@+id/btnBarGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="goToBarGraph"
+        android:text="Gráfico de barras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMusicPlayer"
+        app:layout_constraintVertical_bias="0.094" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
